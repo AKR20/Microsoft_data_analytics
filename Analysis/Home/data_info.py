@@ -3,8 +3,10 @@ import numpy as np
 import matplotlib.pyplot as plt
 from io import StringIO
 
-df = pd.read_csv("D:\MyProject\Analysis\Home\cars_engage_2022_updated.csv")
-df.head()
+#df = pd.read_csv("D:\MyProject\github\Microsoft_data_analytics\Analysis\Home\cars_engage_2022_updated.csv")
+#df.head()
+url = "https://raw.githubusercontent.com/AKR20/Microsoft_data_analytics/main/Analysis/Home/cars_engage_2022_updated.csv"
+df = pd.read_csv(url)
 
 
 def get_graph_cylinder():

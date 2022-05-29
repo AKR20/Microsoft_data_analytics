@@ -51,8 +51,9 @@ MILEAGE_data = (
 )
 
 
-
-df = pd.read_csv("D:\MyProject\Analysis\Home\cars_engage_2022_updated.csv")
+url = "https://raw.githubusercontent.com/AKR20/Microsoft_data_analytics/main/Analysis/Home/cars_engage_2022_updated.csv"
+df = pd.read_csv(url)
+#df = pd.read_csv("D:\MyProject\github\Microsoft_data_analytics\Analysis\Home\cars_engage_2022_updated.csv")
 # df = pd.read_csv("D:\MyProject\Analysis\Home\cars_engage_2022 updated.csv")
 # print(df.head())
 
